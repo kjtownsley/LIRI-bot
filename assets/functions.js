@@ -1,6 +1,7 @@
 //                            FUNCTIONS
 
 module.exports = {
+//     Twitter function that will bring in recent tweets
 
     twitter: function(myInput) {
             var Twitter = require('twitter');
@@ -24,4 +25,6 @@ module.exports = {
         }
     });
  },
-}
+
+       
+ }

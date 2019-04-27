@@ -8,7 +8,7 @@ var fs = require("fs");
 var getMyTweets = function() {
   var client = new Twitter(keys.twitter);
   var params = {
-    screen_name: "BizarroTest"
+    screen_name: "Chad"
   };
   client.get("statuses/user_timeline", params, function(
     error,
@@ -28,7 +28,7 @@ var getMyTweets = function() {
 
 var getMeMovie = function(movieName) {
   if (movieName === undefined) {
-    movieName = "Mr Nobody";
+    movieName = "Step Brothers";
   }
   var urlHit =
     "http://www.omdbapi.com/?t=" +
